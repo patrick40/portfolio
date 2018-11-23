@@ -6,16 +6,19 @@
         <title>HTML  overview</title>
     </head>
     <body>
+        <h5>links</h5>
+        <a href="#LIST">list</a>
+        <a href="#">tables</a>
         <h1>HTML OVERVIEW</h1>
         <hr>
-        <P>HDSHFHSDFHDIUFHSIDJDSHFKDJSFHSKDSFHSDFHJ</P>
-        <U><h2>LISTS</h2></U>
+        <P>Having got much to work on nawadays my dear</P>
+        <U><h2 id="LIST">LISTS</h2></U>
            <H3>ORDED LIST: COLLEGE</H3>
            <OL type="i">
-           <LI>CST</LI>
+           <LI><a href="https://cst.ur.ac.rw/">CST</a></LI>
            <LI>CBE</LI>
            <LI>CAVEM</LI>
-           <LI>CE</LI>
+           <LI><a href="https://ce.ur.ac.rw/"><image src="IMG_20180601_152607.jpg"width="100"></image></a>CE</LI>
            </OL>
            <H3>UN ORDED LIST: SCHOOL IN CS</H3>
            <UL>
@@ -27,7 +30,10 @@
            <h3>definition list</h3>
            <dl>
                <td>web development</td>
-               <dd>loving you my people</dd>
+               <dd>loving you my people
+                   three typeso of links
+                   external,internal and bookmarks
+               </dd>
                <p>definitions</p>
            </dl> 
            <h3>tables</h3>
@@ -61,7 +67,7 @@
                 <td>--</td></tr>
                </tbody>
            </table>
-           <form action=""method="get">
+           <form action=""method="POST" enctype="multipart/form-data">
                <label for="">First name</label> 
                <input type="text"id="First name" placeholder="first name" requireds> </br>
                <label for="surname">surname</label> 
@@ -84,9 +90,11 @@
                    <option>kigali</option>
                </select></br>
                <label for="profile">profile</label>
-               <input type="file"name="" id="photo">
+               <input type="file"name="" id="photo"></br>
                <label for="comment">comment</label>
-               <textarea>comment</textarea>
+               <textarea>comment</textarea><br/>
+               
+               <input type="submit" id="submit">
                
              </form>
            
