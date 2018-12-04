@@ -1,0 +1,43 @@
+ul li{
+ float:right;
+ padding:20px;
+ background-color:black;
+ border:2px solid white;
+ display:inline;
+ }
+ ul li a{
+ color:white;
+ text-decoration:none;
+ line-height:center;
+ }
+ h3
+ {
+ padding-left:500px;
+ padding-top:100px;
+ }
+ body{
+ background-color:#666666;
+ }
+ .index{
+    background: rgb(177, 171, 171);
+     width: 1350px;
+     height: 320px;
+ }
+ .register{
+    background-color:#666666;
+     width: 1350px;
+     height: 150px;
+ }
+ .login{
+    width:60px;
+padding-left:580px;
+}
+.text{
+    background-color: rgb(184, 179, 189);
+    width: 1350px;
+    height: 180px;
+    border: 2px;
+}
+p1{
+    padding left: 100px;;
+}
